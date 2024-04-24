@@ -26,7 +26,6 @@ header h2 {
 }
 
 nav {
-    max-width: 100%;
     margin-top: -1em;
     display: flex;
     list-style: none;
