@@ -21,22 +21,13 @@ h2 {
 }
 
 header h2 {
-    margin: .5em 0 3em .5em;
+    margin: .5em 0 2.35em .5em;
     font-weight: normal;
 }
 
 nav {
     max-width: 100%;
     margin-top: -1em;
-}
-
-nav ul li {
-    flex: 1 1 auto;
-    font-size: 1.3em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-nav ul {
     display: flex;
     list-style: none;
     background-color: black;
@@ -45,6 +36,12 @@ nav ul {
     align-items: center;
     text-align: center;
     margin: 0;
+}
+
+nav a {
+    flex: 1 1 auto;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main {
