@@ -4,11 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD131 | Cameron Paschal</title>
+    <title>WDD131 - Dynamic Web Fundamentals - Cameron Paschal</title>
+    <meta name="author" content="Cameron Paschal">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Cameron Paschal
+    This page is meant to describe who I am and help others learn more about me. ">
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD131 - Cameron Paschal BYUI</h1>
+
+    <header>
+        <h1 id="title">WDD131 - Dynamic Web Fundamentals - Cameron Paschal</h1>
+
+        <nav>
+            <a href="https://www.linkedin.com/in/cameron-paschal-2b0b851ba/" target="_blank">LinkedIn</a>
+            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/29?lang=eng&id=p9#p9" target="_blank">Scripture</a>
+            <a href="#" target="_blank">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h1>About Me</h1>
+            <div id="section-one-div">
+                <p id="bio">My name is Cameron Paschal and I am in my 4th semester at BYU-Idaho. I was born in West Melbourne, Florida but moved to South Jordan, Utah when I was young. I am currently a full time student in Rexburg, Idaho and I love it up here. I
+                    love to be outside doing pretty much anything but especially rock climbing, fishing, and hiking.
+                </p>
+                <img id="personal-picture" src="images/personal-picture.jpg" alt="Picture of me">
+
+                <h2>West Melbourne, Florida</h2>
+                <p id="florida-bio">Florida, nestled in the southeastern United States, is celebrated for its sunny beaches, vibrant cities like Miami and Orlando, and diverse ecosystems including the famed Everglades. It's a haven for tourists drawn to its mix of cultural
+                    attractions, outdoor adventures, and world-renowned theme parks.</p>
+                <img id="florida-flag" src="images/florida-flag.png" alt="picture of the flag of Florida">
+                <p id="flag-title">Flag of Florida</p>
+            </div>
+        </section>
+        <section class="card">
+            <h1>Web Dev Resources</h1>
+            <ul id="resources-list">
+                <li><a href="#">W3Schools</a></li>
+                <li><a href="#">Codeacademy</a></li>
+                <li>
+                    <a href="#">Mdn Web Docs</a>
+                </li>
+            </ul>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Cameron Paschal, Utah
+        </p>
+        <p id="lastModified"></p>
+
+
+
+    </footer>
+
 </body>
 
 </html>
