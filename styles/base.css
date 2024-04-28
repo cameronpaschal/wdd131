@@ -36,6 +36,12 @@ nav a {
     text-align: center;
     font-family: "Crimson Text", serif, Times;
     font-size: 1.5em;
+    transition: transform .2s;
+}
+
+nav a:hover {
+    transform: scale(1.15);
+    opacity: .9;
 }
 
 main {
@@ -145,7 +151,7 @@ h2 {
 footer {
     background-color: #C6AC8F;
     border-radius: 20px 20px 0 0;
-    padding-bottom: 10.35em;
+    padding-bottom: .5em;
 }
 
 footer p {
