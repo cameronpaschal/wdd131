@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131-Place-Cameron Paschal</title>
+    <meta name="author" content="Cameron Paschal">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Cameron Paschal
+    This page is meant to show more about a place or country that I want to live in. ">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Iceland</h1>
+    </header>
+    <main>
+
+        <div id="hero-background">
+            <picture>
+                <source srcset="images/iceland-mountain-large.webp" media="(min-width: 500px)" id="hero-img-large">
+                <img src="images/iceland-mountain-small.webp" alt="Image of Iceland" id="hero-img">
+            </picture>
+        </div>
+
+        <section class="main-table">
+            <h3>Data</h3>
+            <span class="labels">Area: </span>
+            <p> 39,768 sq mi
+            </p>
+            <span class="labels">Population: </span>
+            <p> 382,003 </p>
+
+            <span class="labels">Capital: </span>
+            <p> Reykjavík
+            </p>
+            <span class="labels">Language: </span>
+            <p> Icelandic
+
+            </p>
+            <span class="labels">Currency: </span>
+            <p> Icelandic Króna
+
+            </p>
+            <span class="labels">Time Zone: </span>
+            <p> UTC+0
+
+            </p>
+            <span class="labels">Calling Code: </span>
+            <p> +354
+
+            </p>
+            <span class="labels">Internet TLD: </span>
+            <p> .is
+
+            </p>
+        </section>
+        <section class="main-table">
+
+            <h3>Weather</h3>
+
+            <img src="images/weather_rain_cloud_icon.svg" alt="weather graphic">
+
+            <span class="labels">Temperature: </span>
+            <p> 9&deg;C
+
+            </p>
+            <span class="labels">Conditions: </span>
+            <p> Rain
+
+            </p>
+            <span class="labels">Wind: </span>
+            <p> 20 km/h
+
+            </p>
+            <span class="labels">Wind Chill: </span>
+            <p><span id="wind-chill"></span>
+
+            </p>
+        </section>
+
+
+
+
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Cameron Paschal, Utah
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
