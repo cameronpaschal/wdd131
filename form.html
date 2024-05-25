@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - WDD131 - Cameron Paschal</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <meta name="author" content="Cameron Paschal">
+    <meta name="description" content="This website contains a form.">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+
+
+    <header>
+
+        <h1>Product Review</h1>
+
+    </header>
+
+    <main>
+
+        <form action="/review.html" method="get" id="form">
+
+
+            <fieldset class="review-item" id="dropdown">
+                <label for="product" class="form-title">Product Name</label>
+                <br>
+                <select class="input100" name="product" id="product" required>
+                    <option value="" disabled selected>Select a Product...</option>
+                </select>
+            </fieldset>
+            <fieldset class="review-item" id="star-rating">
+
+                <legend class="form-title">Overall Rating</legend>
+                <label class="onestar" for="one-star">★</label>
+                <input class="onestar" type="radio" name="rating" id="one-star" value="one">
+
+                <label class="twostar" for="two-star">★★</label>
+                <input class="twostar" type="radio" name="rating" id="two-star" value="two">
+
+                <label class="threestar" for="three-star">★★★</label>
+                <br>
+                <input class="threestar" type="radio" name="rating" id="three-star" value="three">
+
+                <label class="fourstar" for="four-star">★★★★</label>
+                <br>
+                <input class="fourstar" type="radio" name="rating" id="four-star" value="four">
+
+                <label class="fivestar" for="five-star">★★★★★</label>
+                <br>
+                <input class="fivestar" type="radio" name="rating" id="five-star" value="five">
+
+            </fieldset>
+
+            <fieldset class="review-item" id="install-date">
+
+                <label class="form-title" for="installation-date">Installation Date</label>
+                <br>
+                <input class="input100" type="date" name="installation-date" id="installation-date" required>
+
+            </fieldset>
+
+            <fieldset class="review-item" id="features">
+                <legend class="form-title">Which features did you find useful in the product?</legend>
+                <legend id="check-all">(Check all that apply)</legend>
+
+                <input type="checkbox" name="durability" id="durability">
+                <label for="durability">Durability</label>
+                <br>
+                <input type="checkbox" name="ease-of-use" id="ease-of-use">
+                <label for="ease-of-use">Ease of Use</label>
+                <br>
+                <input type="checkbox" name="performance" id="performance">
+                <label for="performance">Performance</label>
+                <br>
+                <input type="checkbox" name="design" id="design">
+                <label for="design">Design</label>
+            </fieldset>
+
+            <fieldset class="review-item" id="written-review">
+                <label for="review" class="form-title">Written Review <span class="optional-tag">(Optional)</span></label>
+                <textarea class="input100" name="review" id="review"></textarea>
+            </fieldset>
+
+            <fieldset class="review-item" id="your-name">
+                <label for="name" class="form-title">Your Name <span class="optional-tag">(Optional)</span></label>
+                <input class="input100" type="text" name="name" id="name">
+            </fieldset>
+
+            <input type="submit" value="Post Review" id="submit-button">
+
+
+        </form>
+
+
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; <span id="currentyear"></span> Cameron Paschal, Utah
+        </p>
+        <p id="lastModified"></p>
+
+    </footer>
+</body>
+
+</html>
