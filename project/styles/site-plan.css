@@ -44,19 +44,19 @@ h2 {
 hr {
     height: 3px;
     margin: 35px 0;
-    background: #d2f4bd;
+    background: #274C77;
 }
 
 header {
     padding: 1em;
     text-align: center;
-    color: #d2f4bd;
-    background-color: #b0a7dd;
+    color: #274C77;
+    background-color: #A3CEF1;
 }
 
 header>h1,
 header>h2 {
-    color: #d2f4bd;
+    color: #274C77;
 }
 
 p {
@@ -82,28 +82,28 @@ p {
 }
 
 .primary {
-    background-color: #0D1321;
+    background-color: #274C77;
 }
 
 .secondary {
-    background-color: #FFEDDF;
+    background-color: #A3CEF1;
 }
 
 .accent1 {
-    background-color: #d2f4bd;
+    background-color: #8B8C89;
 }
 
 .accent2 {
-    background-color: #b0a7dd;
+    background-color: #37FF8B;
 }
 
 p.colored {
-    background-color: #b0a7dd;
+    background-color: #A3CEF1;
     color: black;
 }
 
 nav {
-    background-color: #FFEDDF;
+    background-color: #8B8C89;
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
@@ -128,7 +128,7 @@ nav a:visited {
 
 nav a:hover {
     color: #0D1321;
-    background-color: #c3bddd;
+    background-color: #A3CEF1;
 }
 
 .sitemap {
