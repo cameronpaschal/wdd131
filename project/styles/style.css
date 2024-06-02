@@ -341,6 +341,13 @@ button:hover {
 
 #submit-button {
     margin: 1rem auto;
+    transition: transform .3s ease;
+}
+
+#submit-button:hover {
+    background-color: var(--blue);
+    color: white;
+    transform: scale(1.15);
 }
 
 #service-type-list {
