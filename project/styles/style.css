@@ -404,14 +404,14 @@ button:hover {
 }
 
 #thank-you-title {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #thank-you-text {
     font-family: var(--mainPageFont);
     width: fit-content;
     margin: 0 auto 22rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--red);
 }
 
