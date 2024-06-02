@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width" , initial-scale=1.0>
+    <title>WDD131 - Elite Quality Cleaning - Cameron Paschal</title>
+    <meta name=author content=Cameron Paschal>
+    <meta name=description content="WDD 131 - Dynamic Web Fundamentals - Cameron Paschal This page is meant to showcase the cleaning services of my friend Arthur.">
+    <link rel=stylesheet href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <script src="scripts/service-script.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <img src="images/elite-logo.jpg" alt="Cleaning company logo" loading="lazy">
+
+        <button id="menu" aria-label="menu button"></button>
+        <nav id="navigation">
+            <a href="https://cameronpaschal.github.io/wdd131/project/index.html">Home</a>
+            <a href="https://cameronpaschal.github.io/wdd131/project/services.html">Services</a>
+            <a href="https://cameronpaschal.github.io/wdd131/project/contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1 class="main-service-title">Contact us</h1>
+
+
+        <form action="thank-you.html" method="get" id="form">
+
+            <label for="name" class="form-title">Name:</label>
+            <br>
+            <input class="text-input" type="text" name="name" id="name" required>
+            <br>
+            <label for="email" class="form-title">Email:</label>
+            <br>
+            <input class="text-input" type="email" name="email" id="email" required>
+            <br>
+            <label for="company" class="form-title">Company: <span class="optional-tag"> (Optional)</span> </label>
+            <br>
+            <input class="text-input" type="text" name="company" id="company">
+
+
+            <div id="service-selection">
+                <legend class="form-title" id="legend-title">Service type</legend>
+                <label class="service-type" for="residential">Residential</label>
+                <input class="service-type-2" type="radio" name="service" id="residential-button" value="one">
+                <br>
+
+                <label class="service-type" for="commercial">Commercial</label>
+                <input class="service-type-2" type="radio" name="service" id="commercial-name" value="two">
+                <br>
+
+                <label class="service-type" for="school">School</label>
+                <input class="service-type-2" type="radio" name="service" id="school-name" value="three">
+                <br>
+
+                <label class="service-type" for="construction">Construction</label>
+                <input class="service-type-2" type="radio" name="service" id="construction-name" value="four">
+                <br>
+            </div>
+
+
+            <label for="sq-ft" class="form-title">Est. Sq Ft</label>
+            <br>
+            <input class="text-input" type="text" name="sq-ft" id="sq-ft" required>
+            <br>
+
+            <input type="submit" value="Get a Quote" class="text-input" id="submit-button">
+
+            <p id="submissions" class="form-title"></p>
+
+        </form>
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Cameron Paschal, Utah
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

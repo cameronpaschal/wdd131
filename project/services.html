@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width" , initial-scale=1.0>
+    <title>WDD131 - Elite Quality Cleaning - Cameron Paschal</title>
+    <meta name=author content=Cameron Paschal>
+    <meta name=description content="WDD 131 - Dynamic Web Fundamentals - Cameron Paschal This page is meant to showcase the cleaning services of my friend Arthur.">
+    <link rel=stylesheet href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <script src="scripts/service-script.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+    <header>
+
+        <img src="images/elite-logo.jpg" alt="Cleaning company logo" loading="lazy">
+
+        <button id="menu" aria-label="menu button"></button>
+        <nav id="navigation">
+            <a href="https://cameronpaschal.github.io/wdd131/project/index.html">Home</a>
+            <a href="https://cameronpaschal.github.io/wdd131/project/services.html">Services</a>
+            <a href="https://cameronpaschal.github.io/wdd131/project/contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1 class="main-service-title">Services</h1>
+
+        <ul class="list-of-services">
+            <li>Basic House Cleaning</li>
+            <li>Deep Cleaning/Spring Cleaning</li>
+            <li>Laundry Services</li>
+            <li>Sanitization Services</li>
+            <li>Ceiling and Wall Cleaning</li>
+            <li>Blind Cleaning</li>
+            <li>Curtain Cleaning</li>
+            <li>Carpet Cleaning</li>
+            <li>Upholstery Cleaning</li>
+            <li>Office Cleaning</li>
+            <li>Disaster Cleaning and Restoration</li>
+            <li>Window Cleaning</li>
+            <li>Pressure Washing</li>
+            <li>Restroom Cleaning</li>
+            <li>Janitorial Services</li>
+        </ul>
+
+        <label for="service" class="form-title">Service</label>
+        <br>
+        <select class="text-input" name="service" id="service" required>
+            <option value="" disabled selected>Select a Service...</option>
+        </select>
+
+
+        <div id="service-type-list">
+            <h2 class="service-title" id="service-title-2"></h2>
+            <p class="service-description" id="description"></p>
+            <a href="https://cameronpaschal.github.io/wdd131/project/contact.html" class="service-contact" id="contact-link"></a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Cameron Paschal, Utah
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
