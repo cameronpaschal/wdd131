@@ -27,7 +27,7 @@
 
 
             <fieldset class="review-item" id="dropdown">
-                <label for="product" class="form-title">Product Name</label>
+                <label for="product" class="form-title">Product Name <span class="optional-tag">(Required)</span></label></label>
                 <br>
                 <select class="input100" name="product" id="product" required>
                     <option value="" disabled selected>Select a Product...</option>
@@ -35,7 +35,8 @@
             </fieldset>
             <fieldset class="review-item" id="star-rating">
 
-                <legend class="form-title">Overall Rating</legend>
+                <legend class="form-title">Overall Rating <span class="optional-tag">(Required)</span></label>
+                </legend>
                 <label class="onestar" for="one-star">★</label>
                 <input class="onestar" type="radio" name="rating" id="one-star" value="one" required>
 
@@ -58,7 +59,7 @@
 
             <fieldset class="review-item" id="install-date">
 
-                <label class="form-title" for="installation-date">Installation Date</label>
+                <label class="form-title" for="installation-date">Installation Date <span class="optional-tag">(Required)</span></label></label>
                 <br>
                 <input class="input100" type="date" name="installation-date" id="installation-date" required>
 
