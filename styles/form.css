@@ -140,3 +140,8 @@ main a:hover {
 #reviews {
     font-family: var(--secondFont);
 }
+
+.optional-tag {
+    font-style: italic;
+    font-weight: 200;
+}
