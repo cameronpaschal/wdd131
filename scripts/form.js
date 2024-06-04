@@ -1,5 +1,18 @@
 let dropdown = document.querySelector('#product');
 
+document.addEventListener('DOMContentLoaded', (event) => {
+
+    let reviewCount = localStorage.getItem('numReviews') || 0;
+    const form = document.querySelector('#form');
+    const reviewCountP = document.querySelector('#reviews');
+    reviewCountP.textContent = `Reviews Submitted: ${reviewCount}`;
+    form.addEventListener('submit', function(event) {
+        reviewCount++;
+        localStorage.setItem('numReviews', reviewCount)
+        reviewCountP.textContent = `Reviews Submitted: ${reviewCount}`;
+    });
+});
+
 const products = [{
         id: "fc-1888",
         name: "flux capacitor",
